@@ -73,3 +73,9 @@ body{
 .cardLink:hover{
   border-left: 2px solid tomato;
 }
+
+@media (max-width: 576px){
+  .cardLink{
+    width: 350px;
+  }
+}
